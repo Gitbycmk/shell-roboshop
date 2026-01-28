@@ -1,7 +1,7 @@
 #!/bin/bash
 
-AMI_ID="ami-09c813fb71547fc4f"
-SG_ID="sg-07c8acf3fa6b923fa" # replace with your SG ID
+AMI_ID="ami-0220d79f3f480ecf5"
+SG_ID="sg-0b256e920449f0838" # replace with your SG ID
 
 for instance in $@ # mongodb redis mysql
 do
